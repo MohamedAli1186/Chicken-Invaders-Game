@@ -1,0 +1,37 @@
+body{
+    background-image: url("./imgs/Space.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+.chicken{
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+.farkha{
+    position: relative;
+    top: 20px;
+    width: 100px;
+    z-index: 50;
+}
+.rock{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rocket{
+    position: absolute;
+    bottom: 20px;
+    width: 120px;
+    z-index: 100;
+}
+.bullet{
+    position: absolute;
+    width: 10px;
+    height: 20px;
+    z-index: 99;
+}
